@@ -1,16 +1,51 @@
-/* Repère ordre
-@import './vendors/css.scss'
+// Vendors
+@import './vendors/bootstrap';
+@import './vendors/jqueryui';
+@import './vendors/owl-carousel';
 
-@import './utils/css.scss'
+// Utils
+@import './utils/colors';
+@import './utils/mixins';
+@import './utils/variables';
 
-@import './base/css.scss'
+//Base
+@import './base/base';
+@import './base/normalize';
+@import './base/reset';
+@import './base/typography';
 
-@import './layout/css.scss'
+// Layout
+@import './layout/footer';
+@import './layout/header';
+@import './layout/navbar';
+@import './layout/sidebar';
 
-@import './pages/css.scss'
+// Pages
+@import './pages/blog-single';
+@import './pages/blog';
+@import './pages/invoice';
+@import './pages/login';
+@import './pages/product-single';
+@import './pages/product';
+@import './pages/signup';
 
-@import './components/css.scss'
+// Components
+@import './components/alert';
+@import './components/button';
+@import './components/course-card';
+@import './components/infobox';
+@import './components/label';
+@import './components/modal';
+@import './components/profile-card';
+@import './components/success-popup';
 
-@import './themes/css.scss'*/
+// Themes
+@import './themes/dark-theme';
+@import './themes/flat-theme';
+@import './themes/light-theme';
+@import './themes/material-theme';
 
-@import './utils/variables'
+// Utils
+@import './utils/colors';
+@import './utils/mixins';
+@import './utils/variables';
