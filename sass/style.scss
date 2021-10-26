@@ -18,7 +18,7 @@
 @import './layout/footer';
 @import './layout/header';
 @import './layout/navbar';
-@import './layout/sidebar';
+@import './layout/aside';
 
 // Pages
 @import './pages/blog-single';
@@ -44,8 +44,3 @@
 @import './themes/flat-theme';
 @import './themes/light-theme';
 @import './themes/material-theme';
-
-// Utils
-@import './utils/colors';
-@import './utils/mixins';
-@import './utils/variables';

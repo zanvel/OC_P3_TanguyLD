@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AMAA,AAAA,IAAI,CACJ;EACI,MAAM,EAAE,OAAO;CAClB;;AMHD,AACI,MADE,CACF,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;CACrB;;AANL,AAOI,MAPE,CAOF,KAAK,CAAA;EACD,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,UAAU,EAAE,uBAAuB;EACnC,QAAQ,EAAE,QAEd;CAAC;;AAbL,AAcI,MAdE,CAcF,kBAAkB,CAAA;EACd,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,IAAI;EACjB,gBAAgB,ERdZ,OAAO;CQkBd;;AAvBL,AAoBQ,MApBF,CAcF,kBAAkB,CAMd,CAAC,CAAA;EACG,aAAa,EAAE,IAAI;CACtB;;AAtBT,AAwBI,MAxBE,CAwBF,aAAa,CAAA;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,MAAM;EACtB,gBAAgB,ERzBT,OAAO;EQ0Bd,cAAc,EAAE,IAAI;CAoBvB;;AAlDL,AA+BQ,MA/BF,CAwBF,aAAa,CAOT,sBAAsB,CAAA;EAClB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,cAAc,EAAE,IAAI;CACvB;;AApCT,AAqCQ,MArCF,CAwBF,aAAa,CAaT,MAAM,CAAA;EACF,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,mBAAmB;EAClC,UAAU,EAAE,uCAAuD;EACnE,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,mBAAmB;EAC5B,MAAM,EAAE,IAAI;CAIf;;AAjDT,AA8CY,MA9CN,CAwBF,aAAa,CAaT,MAAM,AASD,MAAM,CAAA;EACH,UAAU,EAAE,OAA6C;CAC5D;;AEhDb,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,IAAI;CA2DpB;;AA5DD,AAGI,KAHC,CAGD,UAAU,CAAC,EAAE,CAAA;EACT,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;CAClB;;AANL,AAQI,KARC,CAQD,kBAAkB,CAAA;EACd,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,aAAa,EAAE,IAAI;EACnB,aAAa,EAAE,mBAAmB;EAClC,MAAM,EAAE,IAAI;CA2Bf;;AAzCL,AAiBY,KAjBP,CAQD,kBAAkB,CASV,kBAAkB,CAAA;EACd,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,UAAU;EACzB,WAAW,EAAE,KAAK;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,gBAAgB,EVxBhB,OAAO;EUyBP,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,GAAG;EACZ,OAAO,EAAE,WAAW;EACpB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,GAAG;CACrB;;AA/Bb,AAgCY,KAhCP,CAQD,kBAAkB,CAwBV,gBAAgB,CAAA;EACZ,WAAW,EAAE,IAAI;CAKpB;;AAtCb,AAmCgB,KAnCX,CAQD,kBAAkB,CAwBV,gBAAgB,CAGZ,CAAC,CAAA;EACG,YAAY,EAAE,IAAI;CACrB;;AArCjB,AA0CI,KA1CC,CA0CD,iBAAiB,CAAC;EACd,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACzB",
     "sources": [
         "../../sass/style.scss",
         "../../sass/vendors/_bootstrap.scss",
@@ -16,7 +16,7 @@
         "../../sass/layout/_footer.scss",
         "../../sass/layout/_header.scss",
         "../../sass/layout/_navbar.scss",
-        "../../sass/layout/_sidebar.scss",
+        "../../sass/layout/_aside.scss",
         "../../sass/pages/_blog-single.scss",
         "../../sass/pages/_blog.scss",
         "../../sass/pages/_invoice.scss",
@@ -35,10 +35,7 @@
         "../../sass/themes/_dark-theme.scss",
         "../../sass/themes/_flat-theme.scss",
         "../../sass/themes/_light-theme.scss",
-        "../../sass/themes/_material-theme.scss",
-        "../../sass/utils/_colors.scss",
-        "../../sass/utils/_mixins.scss",
-        "../../sass/utils/_variables.scss"
+        "../../sass/themes/_material-theme.scss"
     ],
     "names": [],
     "file": "style.css"
