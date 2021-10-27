@@ -13,7 +13,8 @@ aside {
         margin-bottom: 20px;
         border-radius: 16px 16px 16px 16px;
         border: none;
-        
+        box-shadow: 0 4px 4px 0px #999;
+        font-weight: bold;
         
             .operation__number{
                 display: flex;
@@ -37,8 +38,12 @@ aside {
                     margin-right: 20px;
                 }
             }
-
-    
+        &:hover{
+            background-color: lighten($primary-color, 30%);
+            i{
+                color: $primary-color;
+            }
+        }
     }
     .operation__steps {
         display: flex;

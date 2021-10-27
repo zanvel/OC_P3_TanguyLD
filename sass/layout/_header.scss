@@ -45,7 +45,9 @@ header {
             padding: 16px 16px 16px 16px;
             border: none;
             &:hover{
-                background: lighten($color: $secondary-color, $amount: 0);
+                background: lighten($primary-color, 30%);
+                color: $primary-color;
+                font-weight: bold;
             }
         }
     }
