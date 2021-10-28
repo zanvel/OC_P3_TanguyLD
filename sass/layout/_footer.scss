@@ -1,0 +1,39 @@
+footer{
+    background-color: $footer-color;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+       
+
+    .footer__header{
+        font-family: 'Shrikhand', cursive;
+        color: white;
+        margin-left: 35px;
+        padding-top: 20px;
+        font-size: 24px;
+    }
+    p{
+        padding: 0;
+        margin-left: 35px;
+        margin-bottom: -10px;
+        list-style: none;
+        list-style-position: inherit;
+        color: white;
+        display: inline-block;
+
+        i {
+            padding-bottom: 0;
+            width: 18px;
+            padding-left: 0;
+            margin-right: 10px;
+        }
+    
+        .footer__contact{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+
+
+}
