@@ -12,7 +12,6 @@
 @import './base/base';
 @import './base/normalize';
 @import './base/reset';
-@import './base/typography';
 
 // Layout
 @import './layout/footer';
@@ -22,13 +21,8 @@
 @import './layout/main';
 
 // Pages
-@import './pages/blog-single';
-@import './pages/blog';
-@import './pages/invoice';
-@import './pages/login';
-@import './pages/product-single';
-@import './pages/product';
-@import './pages/signup';
+@import './pages/menu';
+
 
 // Components
 @import './components/alert';

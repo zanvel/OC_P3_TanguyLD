@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0 0 0 0;
 }
@@ -118,6 +119,35 @@ header .presentation button:hover {
   background: #e4d5f6;
   color: #9356dc;
   font-weight: bold;
+}
+
+header .menu__header {
+  font-family: 'Shrikhand', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 10px;
+  padding-bottom: auto;
+  font-size: 30px;
+}
+
+header .menu__header a {
+  color: black;
+  text-decoration: none;
+}
+
+header .menu__header a i {
+  padding-left: 20px;
+}
+
+header .menu__header p {
+  padding: auto;
+  padding-right: 20px;
+  margin: auto;
+  font-size: 32px;
 }
 
 aside {
@@ -307,5 +337,161 @@ main {
   background: -webkit-linear-gradient(230deg, #9356dc, #ff79da);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.menu .menu__img--francaise {
+  background-image: url(../../public/img/restaurants/à_la_française.jpg);
+}
+
+.menu .menu__img--note {
+  background-image: url(../../public/img/restaurants/la_note_enchantée.jpg);
+}
+
+.menu .menu__img--palette {
+  background-image: url(../../public/img/restaurants/palette_de_gout.jpg);
+}
+
+.menu .menu__img--delice {
+  background-image: url(../../public/img/restaurants/le_délice_des_sens.jpg);
+}
+
+.menu .menu__img--properties {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 250px;
+}
+
+.menu .menu__container {
+  margin-top: -20px;
+  padding-top: 40px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: #EAEBEA;
+}
+
+.menu .menu__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu .menu__header .menu__title {
+  font-family: 'Shrikhand', cursive;
+  font-size: 26px;
+  margin-top: -20px;
+  margin-left: 14px;
+}
+
+.menu .menu__header .menu__favorite {
+  margin-top: -20px;
+  margin-right: 20px;
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+.menu .menu__header .menu__favorite:hover {
+  -webkit-text-stroke: 0px;
+  background: -webkit-linear-gradient(230deg, #9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dish {
+  background-color: #EAEBEA;
+  padding-bottom: 30px;
+}
+
+.dish .dish__header {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.dish .dish__header--border {
+  position: relative;
+}
+
+.dish .dish__header--border:before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 1px;
+  bottom: 0;
+  left: 0%;
+  border-bottom: 2px solid #99e2d0;
+}
+
+.dish .dish__container {
+  width: 340px;
+  border: 2px solid white;
+  background-color: white;
+  margin: 14px;
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 6px 2px lightgray;
+          box-shadow: 1px 1px 6px 2px lightgray;
+}
+
+.dish .dish__container .dish__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dish .dish__container .dish__info .dish__name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dish .dish__container .dish__info p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dish .dish__container .dish__info .dish__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+}
+
+.dish .dish__container .dish__info .dish__price {
+  margin-right: 14px;
+  font-weight: bold;
+}
+
+.order__button {
+  margin: 50px auto 40px auto;
+  display: block;
+  border-radius: 40px 40px 40px 40px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: linear-gradient(0deg, #9356dc, #ff79da);
+  font-size: 16px;
+  color: white;
+  padding: 16px 50px 16px 50px;
+  border: none;
+}
+
+.order__button:hover {
+  background: #e4d5f6;
+  color: #9356dc;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
