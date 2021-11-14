@@ -1,0 +1,119 @@
+/*------Loader home page-------*/
+.loader__bg{
+    position: fixed;
+    z-index: -1;/*to put in front*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    animation: loader_bg 2s linear;
+    opacity: 0;
+    
+    .loader, .loader2{
+        font-size: 10px;
+        width: 11em;
+        height: 11em;
+        border-radius: 50%;
+        background: #ffffff;
+        background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+        position: fixed;
+        animation: loader_spinner 3s linear;
+        animation-iteration-count: 3;
+        transform: translateZ(0);
+        opacity: 1;
+    
+        &:before {
+            width: 50%;
+            height: 50%;
+            background: $secondary-color;
+            border-radius: 100% 0 0 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: '';
+        }
+        &:after {
+            background: $primary-color;
+            width: 75%;
+            height: 75%;
+            border-radius: 50%;
+            content: '';
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    }
+        .loader2 {
+            animation: loader_spinner2 3s linear;
+            animation-iteration-count: 3;
+        
+            &:before {
+                background: $tertiary-color;
+            }
+            
+        }
+
+    @keyframes loader_bg {
+        from{
+            opacity: 1;
+            z-index: 1;
+        }
+        to{
+            opacity: 0;
+            z-index: -1;
+        }
+    }
+
+    @keyframes loader_spinner {
+        0% {
+        transform: rotate(0deg);
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+    }
+    
+
+    @keyframes loader_spinner2 {
+        0% {
+        transform: rotate(360deg);
+        }
+        100% {
+        transform: rotate(0deg);
+        }
+    }
+
+}
+
+/*---------animation menu--------*/
+.dish{
+
+    &.entrees{
+        animation-timing-function:ease-in-out;
+        animation: animationText 2s;
+    }
+    &.mains{
+        animation-timing-function:ease-in-out;
+        animation: animationText 3s;
+    }
+    &.desserts{
+        animation-timing-function:ease-in-out;
+        animation: animationText 4s;
+    }
+
+
+    @keyframes animationText {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+}

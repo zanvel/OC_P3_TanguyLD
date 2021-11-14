@@ -1,41 +1,18 @@
-// Vendors
-@import './vendors/bootstrap';
-@import './vendors/jqueryui';
-@import './vendors/owl-carousel';
 
 // Utils
 @import './utils/colors';
-@import './utils/mixins';
 @import './utils/variables';
+@import './utils/animations';
 
 //Base
 @import './base/base';
-@import './base/normalize';
-@import './base/reset';
 
 // Layout
 @import './layout/footer';
 @import './layout/header';
-@import './layout/navbar';
 @import './layout/aside';
 @import './layout/main';
 
 // Pages
 @import './pages/menu';
 
-
-// Components
-@import './components/alert';
-@import './components/button';
-@import './components/course-card';
-@import './components/infobox';
-@import './components/label';
-@import './components/modal';
-@import './components/profile-card';
-@import './components/success-popup';
-
-// Themes
-@import './themes/dark-theme';
-@import './themes/flat-theme';
-@import './themes/light-theme';
-@import './themes/material-theme';
