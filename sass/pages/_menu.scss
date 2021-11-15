@@ -1,8 +1,9 @@
 .entrees, .mains,.desserts {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;    
     flex-wrap: wrap;
+    align-items: baseline;
 }
 .menu{
 
@@ -205,8 +206,13 @@
         }    
     }
 }
+.order__bg{
+    display: flex;
+    justify-content: center;
+    background-color: $light-gray;
+    padding: 50px;
+}
 .order__button{
-    margin: 50px auto 40px auto;
     display: block;
     border-radius: 40px 40px 40px 40px;
     background: linear-gradient(0deg, $primary-color, $secondary-color);
@@ -221,4 +227,3 @@
         font-weight: bold;
     }
 }
-

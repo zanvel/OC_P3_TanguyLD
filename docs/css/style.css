@@ -529,14 +529,17 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-line-pack: center;
       align-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .menu .menu__img--francaise {
@@ -790,8 +793,18 @@ main {
   width: 100%;
 }
 
+.order__bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #EAEBEA;
+  padding: 50px;
+}
+
 .order__button {
-  margin: 50px auto 40px auto;
   display: block;
   border-radius: 40px 40px 40px 40px;
   background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
