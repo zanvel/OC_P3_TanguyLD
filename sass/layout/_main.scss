@@ -5,16 +5,20 @@ main {
 }
 
 .choices{
-    margin-left: 20px;
     padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
     
     .choices__header{
-        padding-top: 50px;
+        margin-left: 20px;
         font-weight: bold;
+        width: 100%;
 
     }
     .restaurants__card{
-        width: 95%;
+        width: 290px;
         position: relative;
         margin: 0;
         margin-bottom: 20px;

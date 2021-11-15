@@ -209,7 +209,6 @@ footer .footer__header {
   font-family: 'Shrikhand', cursive;
   color: white;
   margin-left: 35px;
-  padding-top: 20px;
   font-size: 24px;
 }
 
@@ -316,7 +315,6 @@ header .menu__header {
       -ms-flex-align: baseline;
           align-items: baseline;
   margin-top: 10px;
-  padding-bottom: auto;
   font-size: 30px;
 }
 
@@ -330,7 +328,6 @@ header .menu__header a i {
 }
 
 header .menu__header p {
-  padding: auto;
   padding-right: 20px;
   margin: auto;
   font-size: 32px;
@@ -424,17 +421,29 @@ main {
 }
 
 .choices {
-  margin-left: 20px;
   padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .choices .choices__header {
-  padding-top: 50px;
+  margin-left: 20px;
   font-weight: bold;
+  width: 100%;
 }
 
 .choices .restaurants__card {
-  width: 95%;
+  width: 290px;
   position: relative;
   margin: 0;
   margin-bottom: 20px;
