@@ -1,14 +1,10 @@
 .entrees, .mains,.desserts {
     display: flex;
-    flex-direction: row;
-    align-content: center;    
-    flex-wrap: wrap;
-    align-items: baseline;
+    flex-direction: column;
 }
 .menu{
 
     .menu__img--francaise{
-
         background-image: url(../img/restaurants/à_la_française.jpg);}
     .menu__img--note{
         background-image: url(../img/restaurants/la_note_enchantée.jpg);
@@ -32,6 +28,13 @@
         padding-top: 40px;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
+        background-color: $light-gray;
+    }
+    .menu__presentation{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         background-color: $light-gray;
     }
     .menu__header{
@@ -116,7 +119,9 @@
         overflow: hidden;
         align-items: center;
         cursor: pointer;
-        
+        @media screen and (max-width:$min){
+           width:300px ;
+        }
         &:hover{
             ul.check{
                 width: 50px;

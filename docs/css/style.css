@@ -529,17 +529,10 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .menu .menu__img--francaise {
@@ -570,6 +563,22 @@ main {
   padding-top: 40px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  background-color: #EAEBEA;
+}
+
+.menu .menu__presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #EAEBEA;
 }
 
@@ -673,6 +682,12 @@ main {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 380px) {
+  .dish .dish__container {
+    width: 300px;
+  }
 }
 
 .dish .dish__container:hover ul.check {
